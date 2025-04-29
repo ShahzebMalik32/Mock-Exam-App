@@ -186,6 +186,4 @@ class UserDatabase:
             return total_attempted, total_correct, total_score
         finally:
             conn.close()
-db = UserDatabase()  # Assuming you named the class file properly
-db.appoint_admin("your_username")
 
